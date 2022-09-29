@@ -1,0 +1,419 @@
+* {
+	padding: 0px;
+}
+
+body {
+	background-color: #e5e5e5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+/*****************************
+Barra de navegação vertical */
+
+	#v-nav{
+		width: 358px;
+		margin: 10px auto;
+	}
+
+	#v-nav h1{
+		width: 358px;
+		height: 60px;
+		background-color: #2a2b2b;
+		font-size: 20px;
+		text-indent: 30px;
+		color: #e3a302;
+		margin-bottom: 0px;
+		line-height: 60px;
+	}
+
+	#v-nav ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		width: 358;
+		background-color: #0a0a0a;
+		display: inline-block;
+	}
+
+	#v-nav li{
+		padding: 4px;
+	}
+
+	#v-nav a{
+		width: 350px;
+		height: 40px;
+		display: block;
+		text-decoration: none;
+		text-align: center right;
+		text-indent: 30px;
+		line-height: 40px;
+		color: #262626;
+		background-color: #0a0a0a;
+	}
+
+	#v-nav a:hover{
+		color: #e3a302;
+		background-color: #2e2100;
+		width: 349px;
+		margin-left: 1px;
+	}
+
+	#v-nav a:active{
+		color: #fff;
+		background-color: #734900;
+	}
+
+/*******************************
+Barra de navegação horizontal */
+
+	#h-nav{
+		width: 900px;
+		margin: 10px auto;
+	}
+
+	#h-nav h1{
+		height: 60px;
+		width: 900px;
+		background-color: #2a2b2b;
+		font-size: 20px;
+		text-indent: 30px;
+		color: #e3a302;
+		margin-bottom: 0px;
+		line-height: 60px;
+		text-align: center;
+	}
+
+	#h-nav ul{
+		margin: 0;
+		padding: 0;
+		width: 900px;
+		list-style: none;
+		background-color: #0a0a0a;
+		float: left;
+	}
+
+	#h-nav li{
+		float: left;
+		width: 150px;
+		height: 40px;
+	}
+
+	#h-nav a{
+		display: block;
+		padding: 0 2em;
+		line-height: 40px;
+		text-decoration: none;
+		color: #262626;
+		border-right: 1px solid #212121;
+		border-left: 1px solid #121212;
+		border-top: #0a0a0a;
+		border-bottom: #0a0a0a;
+	}
+
+	#h-nav a:hover{
+		color: #e3a302;
+		background-color: #2e2100;
+		border: 1px solid #e3a302;
+		height: 38px;
+	}
+
+	#h-nav a.nav-div-end{
+		border-right: none;
+	}
+	#h-nav a.nav-div-bgn{
+		border-left: none;
+	}
+
+/***************
+Layout Líquido*/
+
+	#layout-liquido{
+		width: 100%;
+		max-width: 1500px;
+		min-width: 920px;
+		margin: 20px auto;
+	}
+
+	#layout-liquido h1{
+		line-height: 80px;
+		text-align: center;
+		margin: 0;
+		color: #e3a302;
+		background-color: #0a0a0a;
+	}
+
+	/*Barra de navegação*/
+		.lay-nav{
+			background-color: #0a0a0a;
+		}
+		.lay-nav ul{
+			list-style: none;
+			width: 80%;
+			margin: 0 auto;
+
+
+		}
+		.lay-nav li{
+			display: inline-block;
+			width: 19%;
+			margin: 0;
+			padding: 0;
+		}
+		.lay-nav a{
+			line-height: 40px;
+			text-align: center;
+			color: #262626;
+			display: block;
+			text-decoration: none;
+		}
+
+		.lay-nav a:hover{
+			color: #e3a302;
+			border-radius: 10px;
+			background-color: #2e2100;
+			font-weight: bold;
+		}
+
+	/*Conteúdo*/
+		.lay-cnt{
+			margin: 0;
+			padding: 10px;
+			background-color: #363636;
+		}
+
+		.lctn1{
+			width: 20%;
+			background-color: #0a0a0a;
+			float: left;
+		}
+
+		.lctn1 h4{
+			width: 100%;
+			line-height: 60px;
+			margin: 0;
+			text-indent: 30px;
+			background-color: #e3a302;
+		}
+
+		.lctn1 ul{
+			list-style: none;
+			margin: 0;
+		}
+
+		.lctn1 li{
+			display: block;
+			margin: 0;
+		}
+
+		.lctn1 a{
+			line-height: 40px;
+			text-decoration: none;
+			color: #fff;
+			text-indent: 30px;
+			display: block;
+		}
+
+		.lctn1 a:hover{
+			text-indent: 40px;
+			color: #e3a302;
+			background-image: url(../imagens/marca.png);
+			background-size: 40px;
+			background-repeat: no-repeat;
+			font-weight: bold;
+		}
+
+		.lctn2{
+			padding: 20px;
+			width: 75%;
+			float: right;
+			background-color: #e3a302;
+		}
+
+		.lctn2 img{
+			border: 1px solid black;
+			width: 90%;
+			max-width: 920px;
+			margin: 0 auto;
+			display: block;
+		}
+
+		.lctn2 h2{
+			width: 100%;
+			background-color: black;
+			margin: 10px auto;
+			text-align: center;
+			color: #fff;
+		}
+
+/********************
+Estilizando Tabelas*/
+
+	#tabela{
+		width: 100%;
+		max-width: 1500px;
+		min-width: 920px;
+		margin: 10px auto;
+		padding: 0;
+		background-color: #0a0a0a;
+	}
+	#tabela h1, h3{
+		color: #e3a302;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		line-height: 80px;
+	}
+	#tabela table{
+		width: 100%;
+		border-collapse: collapse;
+		background-color: #363636;
+	}
+	#tabela th, td{
+		padding: 7px;
+		text-transform: uppercase;
+	}
+	#tabela th{
+		line-height: 40px;
+		background-color: #e3a302;
+	}
+	#tabela td{
+		color: #fff;
+		line-height: 30px;
+	}
+	#tabela .bounty{
+		color: #aa7918;
+		font-style: oblique;
+		text-align: center;
+		background-image: url(../imagens/belly.png);
+		background-repeat: no-repeat;
+		background-size: 20px;
+		background-position: left center;
+	}
+
+	tr:hover{
+		background-color: #303030;
+	}
+	#tabela td.nome{
+		text-align: center;
+	}
+	#tabela td.funcao{
+		text-align: center;
+	}
+
+/************************
+Estilizando Formulários*/
+
+	#form{
+		background-color: #363636;
+		padding-bottom: 20px;
+		width: 100%;
+		max-width: 1500px;
+		min-width: 920px;
+		margin: 10px auto;
+	}
+	#form h1{
+		color: #e3a302;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		line-height: 80px;
+		background-color: #0a0a0a
+	}
+	#form form{
+		margin: 10px;
+		color: #e3a302;
+	}
+	#form fieldset{
+		padding: 1em;
+		padding-top: 0;
+		border: 2px solid #e3a302;
+	}
+	#form legend{
+		padding: 7px;
+		font-size: 2em;
+		font-weight: bold;
+	}
+	#form label{
+		display: block;
+		font-size: 20px;
+		line-height: 30px;
+		cursor: pointer;
+		width: 70%;
+		position: relative;
+	}
+	#form label:hover{
+		color: #fff;
+	}
+	#form #perfil input{
+		border: 0;
+		background-color: #363636;
+		width: 100%;
+		height: 30px;
+		color: #fff;
+		font-size: 22px;
+		line-height: 30px;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		margin-bottom: 15px;
+	}
+	#form .fbounty img{
+		height: 28px;
+		display: inline;
+		position: absolute;
+	}
+	#form input#fbounty{
+		display: inline-block;
+		margin-left: 30px;
+	}
+	#form select{
+		width: 300px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 22px;
+		border: 0;
+		background-color: #363636;
+		color: #fff;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+
+/********************
+Fontes Customizadas*/
+
+	#customfont{
+		background-color: #363636;
+		padding-bottom: 20px;
+		width: 100%;
+		max-width: 1500px;
+		min-width: 920px;
+		margin: 10px auto;
+	}
+	@font-face{
+		font-family: "Grape Days";
+		src: url("../fonts/GrapeDays.woff");
+	}
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+	#customfont  h1{
+		color: #e3a302;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		line-height: 80px;
+		background-color: #0a0a0a
+	}
+	.cfont1, .cfont2, .cfont3{
+		line-height: 150px;
+		font-size: 40px;
+	}
+
+	.cfont1{
+		font-family: "Grape Days";
+	}
+	.cfont2{
+		font-family: "Open Sans";
+	}
+	.cfont2{
+		font-family: "The Bigger The Better";
+	}
